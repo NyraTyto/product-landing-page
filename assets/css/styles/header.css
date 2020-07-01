@@ -1,0 +1,47 @@
+header {
+  justify-content: center;
+
+  height: 50px;
+
+  font-size: 13px;
+  background-color: #272727;
+}
+
+header .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a,
+.menu-items a {
+  align-items: center;
+  height: 100%;
+  
+  text-decoration: none;
+  color: #ddd;
+}
+
+.menu {
+  flex: 2;
+}
+
+.menu-items {
+  justify-content: space-between;
+  flex: 1;
+}
+
+.menu-btn hr {
+  width: 20px;
+  margin: 5px 8px;
+}
+
+.menu-items img {
+  width: 20px;
+  height: 20px;
+
+  margin-right: 8px;
+}
+
+header strong {
+  color: #fff;
+}
