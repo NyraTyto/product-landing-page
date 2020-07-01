@@ -1,33 +1,41 @@
 header {
   justify-content: center;
+  height: 200px;
+}
 
-  height: 50px;
+/* Menu fixed */
 
-  font-size: 13px;
+.first {
+  justify-content: center;
+  height: 20%;
   background-color: #272727;
 }
 
-header .container {
+.menu-fixed {
   justify-content: space-between;
   align-items: center;
-}
-
-.menu a,
-.menu-items a {
-  align-items: center;
-  height: 100%;
   
-  text-decoration: none;
-  color: #ddd;
+  width: 100%;
+
+  font-size: 13px;
 }
 
-.menu {
-  flex: 2;
+.menu-icon {
+  flex: 5;
 }
 
 .menu-items {
   justify-content: space-between;
-  flex: 1;
+  flex: 2;
+}
+
+.menu-icon a,
+.menu-items a {
+  align-items: center;
+  height: 100%;
+
+  text-decoration: none;
+  color: #ddd;
 }
 
 .menu-btn hr {
@@ -42,6 +50,36 @@ header .container {
   margin-right: 8px;
 }
 
-header strong {
+.menu-fixed strong {
   color: #fff;
+}
+
+/* Menu */
+
+.second {
+  justify-content: center;
+  align-items: center;
+
+  height: 80%;
+}
+
+.menu {
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  color: #434343;
+}
+
+.logo img {
+  height: 38px;
+}
+
+.menu nav {
+  width: 70%;
+}
+
+.menu nav ul {
+  justify-content: space-between;
 }
