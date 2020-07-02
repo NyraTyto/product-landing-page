@@ -5,32 +5,40 @@ footer {
 }
 
 footer .container {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-footer .icon {
+footer .content {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content .icon {
   flex: 1;
 }
 
-footer img {
+.content img {
   width: 40px;
 }
 
-footer .footer-menu {
+.content .footer-menu {
   flex: 2;
 }
 
-.footer-menu a,
-footer p {
+.footer-menu a, .content p {
   color: #ddd;
 }
 
-footer li {
+.content li {
   margin: 10px 0;
 }
 
-footer .social-medias {
+.content li:first-child {
+  margin-top: 0;
+}
+
+.social-medias {
   flex: 3;
   align-items: flex-end;
 }
