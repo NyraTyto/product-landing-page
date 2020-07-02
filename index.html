@@ -11,10 +11,10 @@
 </head>
 
 <body>
-  <header class="">
-    <div class="first flex-row">
+  <header>
+    <div id="first-menu" class="flex-row">
       <div class="container flex-row">
-        <div class="menu-fixed flex-row">
+        <div id="menu-fixed" class="flex-row">
           <div class="menu-icon">
             <a href="#" class="flex-row">
               <div class="menu-btn">
@@ -51,25 +51,58 @@
       </div>
     </div>
 
-    <div class="second flex-row">
+    <div id="second-menu" class="flex-row">
       <div class="container">
         <div class="menu flex-row">
           <div class="logo">
-            <img src="./assets/images/logo.png" alt="Beograd logo">
+            <a href="#">
+              <img src="./assets/images/logo.png" alt="Beograd logo">
+            </a>
           </div>
           <nav>
             <ul class="flex-row">
-              <li>ALL PRODUCTS</li>
-              <li>TO WEAR</li>
-              <li>TO CARRY</li>
-              <li>TO DRINK WITH</li>
-              <li>TO GEEK OUT</li>
+              <li><a href="#">ALL PRODUCTS</a></li>
+              <li><a href="#">TO WEAR</a></li>
+              <li><a href="#">TO CARRY</li></a>
+              <li><a href="#">TO DRINK WITH</li></a>
+              <li><a href="#">TO GEEK OUT</li></a>
             </ul>
           </nav>
         </div>
       </div>
     </div>
   </header>
+
+  <main>
+    <section id="sales-area" class="flex-row">
+      <div class="container">
+        <aside id="product-area" class="flex-column">
+          <small>
+            <a href="#">Home</a> /
+            <a href="#">All products</a> /
+            <a href="#">Green t-shirt</a>
+          </small>
+          <img src="./assets/images/tshirt.png" alt="Green t-shirt">
+          <div class="image-parts flex-row">
+            <img src="./assets/images/tshirt-left.png" alt="Green t-shirt">
+            <img src="./assets/images/tshirt-top.png" alt="Green t-shirt">
+            <img src="./assets/images/tshirt-middle.png" alt="Green t-shirt">
+            <img src="./assets/images/tshirt-left.png" alt="Green t-shirt">
+          </div>
+        </aside>
+
+        <article id="image-description">
+
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
