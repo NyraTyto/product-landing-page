@@ -1,0 +1,45 @@
+footer {
+  justify-content: center;
+  height: 180px;
+  background-color: #272727;
+}
+
+footer .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .icon {
+  flex: 1;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer .footer-menu {
+  flex: 2;
+}
+
+.footer-menu a,
+footer p {
+  color: #ddd;
+}
+
+footer li {
+  margin: 10px 0;
+}
+
+footer .social-medias {
+  flex: 3;
+  align-items: flex-end;
+}
+
+.medias-icons img {
+  width: 30px;
+  margin: 10px 10px 0 0;
+}
+
+.medias-icons:last-child {
+  margin-right: 18px;
+}
