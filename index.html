@@ -7,6 +7,7 @@
 
   <title>Beograd</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
@@ -75,14 +76,16 @@
 
   <main>
     <section id="sales-area" class="flex-row">
-      <div class="container">
+      <div class="container flex-row">
         <aside id="product-area" class="flex-column">
           <small>
             <a href="#">Home</a> /
             <a href="#">All products</a> /
             <a href="#">Green t-shirt</a>
           </small>
+
           <img src="./assets/images/tshirt.png" alt="Green t-shirt">
+
           <div class="image-parts flex-row">
             <img src="./assets/images/tshirt-left.png" alt="Green t-shirt">
             <img src="./assets/images/tshirt-top.png" alt="Green t-shirt">
@@ -91,8 +94,54 @@
           </div>
         </aside>
 
-        <article id="image-description">
+        <article id="product-description" class="flex-column">
+          <h1>Green t-shirt</h1>
+          <h1 class="price">$15</h1>
 
+          <div class="description">
+            <p>Details lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam possimus eaque explicabo
+              consequuntur, reiciendis quibusdam vero. Earum laboriosam dignissimos, dolores quisquam, blanditiis atque
+              non aut neque nihil.</p>
+            <p>Shipping lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, atque perferendis provident
+              animi cum.</p>
+          </div>
+
+          <div class="colors flex-row">
+            <h4>COLOR</h4>
+
+            <div class="color green"></div>
+            <div class="color dark-blue"></div>
+            <div class="color blue"></div>
+            <div class="color yellow"></div>
+            <div class="color red"></div>
+            <div class="color gray"></div>
+          </div>
+
+          <div class="product-options flex-row">
+            <div class="options flex-row">
+              <h4>SIZE</h4>
+              
+              <select name="size" id="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+              </select>
+            </div>
+
+            <div class="options flex-row">
+              <h4>QUANTITY</h4>
+              
+              <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+
+          <a href="#">ADD TO CAR</a>
         </article>
       </div>
     </section>

@@ -1,10 +1,13 @@
+/* Sales area (aside) */
+
 #sales-area {
   justify-content: center;
 }
 
 #product-area {
   justify-content: center;
-  width: 50%;
+  flex: 1;
+  margin-right: 50px;
 }
 
 #product-area small a {
@@ -42,4 +45,106 @@
 .image-parts img:hover {
   border: 2px solid #41459F;
   cursor: pointer;
+}
+
+/* Product description article */
+
+#product-description {
+  flex: 1;
+  justify-content: center;
+}
+
+#product-description h4 {
+  margin-right: 30px;
+  color: #434343;
+}
+
+.price, 
+.description p, 
+.colors, 
+.product-options,
+#product-description a {
+  margin-top: 30px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.colors, .product-options, .options {
+  align-items: center;
+  height: 40px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+.color:hover {
+  border: 2px solid #41459F;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #467B5F;
+}
+
+.dark-blue {
+  background-color: #3B3D70;
+}
+
+.blue {
+  background-color: #86A6B8;
+}
+
+.yellow {
+  background-color: #A28D3E;
+}
+
+.red {
+  background-color: #D24D4E;
+}
+
+.gray {
+  background-color: #CCCCCC;
+}
+
+.product-options {
+  justify-content: space-between;
+}
+
+.options select {
+  margin-left: 25px;
+}
+
+.options select,
+.options select option {
+  width: 90px;
+  height: 40px;
+
+  padding: 10px;
+  border: 2px solid #41459F;
+
+  color: #41459F;
+  font-weight: bold;
+}
+
+#product-description a {
+  width: 220px;
+  height: 20px;
+
+  padding: 20px;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+
+  background-color: #41459F;
+}
+
+#product-description a:hover {
+  background-color: #5256AF;
 }
