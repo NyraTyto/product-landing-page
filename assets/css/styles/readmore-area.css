@@ -1,0 +1,32 @@
+#readmore-area {
+  justify-content: center;
+  height: 280px;
+
+  background-image: url('../../images/background.png');
+  background-position-y: initial;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#readmore-area .container {
+  align-items: center;
+  justify-content: center;
+}
+
+#readmore-area p,
+#readmore-area a {
+  padding: 0 50px;
+
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+#readmore-area a {
+  padding: 12px 50px;
+  border: 2px solid #fff;
+  margin-top: 20px;
+
+  font-size: 18px;
+  font-weight: bold;
+}
