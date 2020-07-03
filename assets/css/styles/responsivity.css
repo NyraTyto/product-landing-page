@@ -9,6 +9,14 @@
 }
 
 @media (max-width: 840px) {
+  header {
+    height: 150px;
+  }
+
+  #first-menu {
+    height: 35%;
+  }
+
   nav {
     display: none;
   }
@@ -23,34 +31,166 @@
 
   #sales-area .container {
     flex-direction: column;
+    align-items: center;
   }
 
   #product-area {
     margin-right: 0;
-    align-items: center;
-  }
-
-  #product-area .images {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    height: 80%;
+    width: 70%;
   }
 
   #product-area img {
-    width: 72%;
+    margin-top: 10px;
   }
 
-  .image-parts {
+  #product-description {
+    margin-top: 40px;
+  }
+
+  #readmore-area {
+    background-size: auto;
+    background-position-x: center;
+  }
+
+  #readmore-area p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .menu-icon {
+    flex: 2;
+  }
+
+  #readmore-area p {
+    font-size: 18px;
+  }
+
+  footer a,
+  footer p {
+    font-size: 14px;
+  }
+
+  .medias-icons:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .menu-icon {
+    flex: 1;
+  }
+
+  #product-description h4 {
+    margin-right: 10px;
+  }
+
+  #readmore-area p {
+    padding: 0;
+  }
+
+  footer a,
+  footer p {
+    font-size: 11px;
+  }
+
+  .social-medias p {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 440px) {
+  .menu-items p {
+    display: none;
+  }
+
+  .menu-icon {
+    flex: 3;
+  }
+
+  #product-area {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  #product-area img {
+    margin-top: 10px;
+  }
+
+  #product-description h4 {
+    margin-right: 2px;
+  }
+
+  #readmore-area p {
+    font-size: 16px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  footer a,
+  footer p {
+    font-size: 10px;
+  }
+
+  .footer-menu ul {
+    padding-inline-start: 20px;
+  }
+
+  .content li {
+    margin: 0;
+  }
+
+  .social-medias {
+    flex: 1;
+  }
+}
+
+@media (max-width: 370px) {
+  .container {
+    margin: 20px;
+  }
+
+  .colors,
+  .product-options {
     flex-direction: column;
+    align-items: flex-start;
+    height: auto;
   }
 
-  .image-parts img {
-    margin: 0 30px;
-    height: 20%;
+  .product-options .options:first-child {
+    margin-bottom: 30px;
   }
 
-  .image-parts img:first-child {
-    margin-left: 30px;
+  .colors h4 {
+    margin-bottom: 10px;
+  }
+
+  .color.green {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 340px) {
+  #faq-area .questions p {
+    font-size: 16px;
+  }
+
+  #readmore-area p {
+    font-size: 14px;
+  }
+
+  .content img {
+    width: 30px;
+  }
+
+  .medias-icons img {
+    width: 20px;
+  }
+
+  footer a,
+  footer p {
+    font-size: 8px;
   }
 }
